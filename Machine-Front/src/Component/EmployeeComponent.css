@@ -1,0 +1,93 @@
+
+
+.employee-form-container {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .employee-form-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .employee-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-form div {
+    margin-bottom: 20px;
+  }
+  
+  .employee-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .employee-form input[type="text"],
+  .employee-form input[type="email"],
+  .employee-form select,
+  .employee-form input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .employee-form input[type="text"]:focus,
+  .employee-form input[type="email"]:focus,
+  .employee-form select:focus,
+  .employee-form input[type="file"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .employee-form input[type="checkbox"],
+  .employee-form input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #007bff; /* Modern way to color checkboxes and radio buttons */
+  }
+  
+  .employee-form input[type="checkbox"] {
+    margin-left: 8px;
+  }
+  
+  .employee-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .employee-form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .employee-form button:active {
+    background-color: #004494;
+    transform: translateY(0);
+  }
+  
+  .employee-form span {
+    display: block;
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
